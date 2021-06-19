@@ -1,10 +1,10 @@
 {
-  "name": "@antfu/eslint-config-basic",
+  "name": "@sxzz/eslint-config-basic",
   "version": "0.6.6",
   "description": "",
   "keywords": [],
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "files": [
     "index.js"
   ],
@@ -19,8 +19,6 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsonc": "^1.2.1",

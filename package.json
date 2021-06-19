@@ -1,8 +1,8 @@
 {
-  "name": "@antfu/eslint-config-monorepo",
+  "name": "@sxzz/eslint-config-monorepo",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com> (https://github.com/antfu/)",
+  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -10,8 +10,8 @@
     "release": "lerna publish --conventional-commits"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "*",
     "eslint": "^7.22.0",
+    "@sxzz/eslint-config": "*",
     "lerna": "^4.0.0",
     "typescript": "^4.2.3"
   }
