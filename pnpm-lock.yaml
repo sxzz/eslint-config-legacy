@@ -16,7 +16,7 @@ importers:
 
   packages/all:
     specifiers:
-      '@sxzz/eslint-config-vue': ^0.6.6
+      '@sxzz/eslint-config-vue': ^1.0.0
       eslint: ^7.22.0
     dependencies:
       '@sxzz/eslint-config-vue': link:../vue
@@ -50,7 +50,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@sxzz/eslint-config-basic': ^0.6.6
+      '@sxzz/eslint-config-basic': ^1.0.0
       '@typescript-eslint/eslint-plugin': ^4.17.0
       '@typescript-eslint/parser': ^4.17.0
       eslint: ^7.22.0
@@ -63,7 +63,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@sxzz/eslint-config-ts': ^0.6.6
+      '@sxzz/eslint-config-ts': ^1.0.0
       eslint: ^7.22.0
       eslint-plugin-vue: 7.7.0
     dependencies:
