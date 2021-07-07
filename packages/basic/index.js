@@ -88,7 +88,7 @@ module.exports = {
 
     // es6
     'no-var': 'error',
-    'prefer-const': ['warn', { destructuring: 'any', ignoreReadBeforeAssign: true }],
+    'prefer-const': ['warn', { destructuring: 'all', ignoreReadBeforeAssign: true }],
     'prefer-arrow-callback': ['error', { allowNamedFunctions: false, allowUnboundThis: true }],
     'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true }],
     'prefer-rest-params': 'error',
@@ -103,6 +103,7 @@ module.exports = {
     // eqeqeq: ['error', 'allow-null'],
     'no-alert': 'warn',
     'no-case-declarations': 'error',
+    'no-fallthrough': ['warn', { commentPattern: 'break[\\s\\w]*omitted' }],
     'no-multi-str': 'error',
     'no-with': 'error',
     'no-void': 'error',
@@ -132,7 +133,5 @@ module.exports = {
     'unicorn/prefer-type-error': 'error',
     // Use new when throwing error
     'unicorn/throw-new-error': 'error',
-
-    'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
   },
 };

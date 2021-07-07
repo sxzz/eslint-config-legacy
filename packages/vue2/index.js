@@ -10,7 +10,7 @@ module.exports = {
   ],
   extends: ['plugin:vue/recommended', '@sxzz/eslint-config-ts'],
   rules: {
-    'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
+    '@typescript-eslint/no-unused-vars': ['error', { varsIgnorePattern: '^h$', argsIgnorePattern: '^h$' }],
     'vue/no-v-html': 'off',
   },
 };
