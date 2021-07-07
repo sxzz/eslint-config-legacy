@@ -1,5 +1,5 @@
 {
-  "name": "@sxzz/eslint-config-ts",
+  "name": "@sxzz/eslint-config-vue2",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -9,17 +9,15 @@
     "index.js"
   ],
   "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "peerDependencies": {
-    "eslint": ">=7.4.0",
-    "typescript": ">=3.9"
-  },
   "dependencies": {
-    "@sxzz/eslint-config-basic": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.2",
-    "@typescript-eslint/parser": "^4.28.2"
+    "@sxzz/eslint-config-ts": "^1.0.0",
+    "eslint-plugin-vue": "7.7.0"
   },
   "devDependencies": {
     "eslint": "^7.30.0"

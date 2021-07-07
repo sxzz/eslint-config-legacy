@@ -19,6 +19,6 @@
     "@sxzz/eslint-config-vue": "^1.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.22.0"
+    "eslint": "^7.30.0"
   }
 }
