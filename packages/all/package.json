@@ -1,6 +1,6 @@
 {
   "name": "@sxzz/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@sxzz/eslint-config-vue": "^1.1.0"
+    "@sxzz/eslint-config-vue": "^1.1.1"
   },
   "devDependencies": {
     "eslint": "^7.30.0"
