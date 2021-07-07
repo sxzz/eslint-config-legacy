@@ -8,7 +8,7 @@ module.exports = {
       },
     },
   ],
-  extends: ['plugin:vue/vue-recommended', '@sxzz/eslint-config-ts'],
+  extends: ['plugin:vue/recommended', '@sxzz/eslint-config-ts'],
   rules: {
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     'vue/no-v-html': 'off',
