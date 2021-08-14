@@ -16,6 +16,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@sxzz/eslint-config-prettier": "^1.2.0",
     "@sxzz/eslint-config-vue": "^1.2.0"
   },
   "devDependencies": {

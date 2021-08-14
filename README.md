@@ -60,7 +60,8 @@ module.exports = {
     "vue",
     "json",
     "json5",
-    "jsonc"
+    "jsonc",
+    "yaml"
   ],
   "eslint.probe": [
     "javascript",
@@ -71,7 +72,8 @@ module.exports = {
     "vue",
     "json",
     "json5",
-    "jsonc"
+    "jsonc",
+    "yaml"
   ]
 }
 ```
