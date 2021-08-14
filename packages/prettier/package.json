@@ -1,0 +1,29 @@
+{
+  "name": "@sxzz/eslint-config-prettier",
+  "version": "1.1.3",
+  "description": "Prettier Config",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
