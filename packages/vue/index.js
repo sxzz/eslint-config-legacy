@@ -6,10 +6,26 @@ module.exports = {
       parserOptions: {
         parser: '@typescript-eslint/parser',
       },
+      globals: {
+        // script setup
+        defineProps: 'readonly',
+        defineEmits: 'readonly',
+        defineExpose: 'readonly',
+        withDefaults: 'readonly',
+
+        // Ref sugar
+        $ref: 'readonly',
+        $shallowRef: 'readonly',
+        $computed: 'readonly',
+        $fromRefs: 'readonly',
+        $raw: 'readonly',
+      },
       rules: {
         'no-unused-vars': 'off',
-        'no-undef': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
+
+        // Ref sugar
+        'prefer-const': 'off',
       },
     },
   ],

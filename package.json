@@ -2,8 +2,8 @@
   "name": "@sxzz/eslint-config-monorepo",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "private": true,
+  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "lint": "npx eslint --ext .js,.json,.vue --fix .",
@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@sxzz/eslint-config": "*",
-    "eslint": "^7.31.0",
+    "eslint": "^7.32.0",
     "lerna": "^4.0.0",
     "typescript": "^4.3.5"
   }

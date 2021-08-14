@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-import": "^2.24.0",
     "eslint-plugin-jsonc": "^1.4.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
@@ -30,6 +30,6 @@
     "yaml-eslint-parser": "^0.3.2"
   },
   "devDependencies": {
-    "eslint": "^7.31.0"
+    "eslint": "^7.32.0"
   }
 }
