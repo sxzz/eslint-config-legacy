@@ -3,7 +3,15 @@ const basic = require('@sxzz/eslint-config-basic');
 
 module.exports = {
   extends: ['@sxzz/eslint-config-basic', 'plugin:@typescript-eslint/recommended'],
-  overrides: basic.overrides,
+  overrides: [
+    ...basic.overrides,
+    {
+      files: ['*.ts'],
+      rules: {
+        'no-undef': 'off',
+      },
+    },
+  ],
   rules: {
     'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',

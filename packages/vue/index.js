@@ -13,14 +13,15 @@ module.exports = {
         defineExpose: 'readonly',
         withDefaults: 'readonly',
 
-        // Ref sugar
+        // Ref sugar (take 2)
+        $: 'readonly',
+        $$: 'readonly',
         $ref: 'readonly',
         $shallowRef: 'readonly',
         $computed: 'readonly',
-        $fromRefs: 'readonly',
-        $raw: 'readonly',
       },
       rules: {
+        'no-undef': 'off',
         'no-unused-vars': 'off',
         '@typescript-eslint/no-unused-vars': 'off',
 
