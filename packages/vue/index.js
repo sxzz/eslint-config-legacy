@@ -1,4 +1,12 @@
 module.exports = {
+  globals: {
+    // Ref sugar (take 2)
+    $: 'readonly',
+    $$: 'readonly',
+    $ref: 'readonly',
+    $shallowRef: 'readonly',
+    $computed: 'readonly',
+  },
   overrides: [
     {
       files: ['*.vue'],
@@ -12,13 +20,6 @@ module.exports = {
         defineEmits: 'readonly',
         defineExpose: 'readonly',
         withDefaults: 'readonly',
-
-        // Ref sugar (take 2)
-        $: 'readonly',
-        $$: 'readonly',
-        $ref: 'readonly',
-        $shallowRef: 'readonly',
-        $computed: 'readonly',
       },
       rules: {
         'no-undef': 'off',
