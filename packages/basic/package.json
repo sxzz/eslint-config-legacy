@@ -19,11 +19,11 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-plugin-html": "^6.1.2",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-jsonc": "^1.4.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsonc": "^1.7.0",
     "eslint-plugin-unicorn": "^35.0.0",
-    "eslint-plugin-yml": "^0.10.0"
+    "eslint-plugin-yml": "^0.10.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0"
