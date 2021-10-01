@@ -78,28 +78,6 @@ module.exports = {
 }
 ```
 
-## Notice
-
-⚠️ in `TypeScript` files, you should use `import type` to import types declaration.
-
-For example:
-
-```diff
-- import { defineComponent, PropType } from 'vue';
-+ import { defineComponent } from 'vue';
-+ import type { PropType } from 'vue';
-```
-
-Or just disable `import/named`
-
-```javascript
-module.exports = {
-  rules: {
-    'import/named': 'off',
-  },
-};
-```
-
 ## License
 
 MIT License © 2021 [sxzz](https://github.com/sxzz)

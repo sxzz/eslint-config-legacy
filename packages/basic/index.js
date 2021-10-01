@@ -72,11 +72,19 @@ module.exports = {
   ],
   rules: {
     // import
-    'import/order': 'error',
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
+    'import/no-duplicates': 'error',
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
+        pathGroups: [{ pattern: '@/**', group: 'internal' }],
+        pathGroupsExcludedImportTypes: ['type'],
+      },
+    ],
 
     // Common
     'no-unused-vars': 'warn',
