@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/sxzz/eslint-config/compare/v1.3.1...v1.4.0) (2021-10-01)
+
+
+### Features
+
+* extract import type and order to the end ([d0ea4dc](https://github.com/sxzz/eslint-config/commit/d0ea4dcac3c5f2f410e45c109943a00a3433119e))
+
+
+
+
+
 # [1.0.0](https://github.com/sxzz/eslint-config/compare/v0.6.6...v1.0.0) (2021-06-19)
 
 **Note:** Version bump only for package @sxzz/eslint-config-ts
