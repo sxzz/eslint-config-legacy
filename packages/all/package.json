@@ -17,7 +17,8 @@
   },
   "dependencies": {
     "@sxzz/eslint-config-prettier": "^1.4.0",
-    "@sxzz/eslint-config-vue": "^1.4.0"
+    "@sxzz/eslint-config-vue": "^1.4.0",
+    "eslint-define-config": "^1.1.1"
   },
   "devDependencies": {
     "eslint": "^7.32.0"

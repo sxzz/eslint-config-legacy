@@ -1,4 +1,7 @@
-module.exports = {
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { defineConfig } = require('eslint-define-config');
+
+module.exports = defineConfig({
   env: {
     es6: true,
     browser: true,
@@ -142,4 +145,4 @@ module.exports = {
     // Use new when throwing error
     'unicorn/throw-new-error': 'error',
   },
-};
+});

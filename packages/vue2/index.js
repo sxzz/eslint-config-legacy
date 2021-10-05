@@ -1,4 +1,7 @@
-module.exports = {
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { defineConfig } = require('eslint-define-config');
+
+module.exports = defineConfig({
   overrides: [
     {
       files: ['*.vue'],
@@ -17,4 +20,4 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '^h$', argsIgnorePattern: '^h$' }],
     'vue/no-v-html': 'off',
   },
-};
+});

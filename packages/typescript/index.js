@@ -1,7 +1,9 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
+const { defineConfig } = require('eslint-define-config');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const basic = require('@sxzz/eslint-config-basic');
 
-module.exports = {
+module.exports = defineConfig({
   extends: ['@sxzz/eslint-config-basic', 'plugin:@typescript-eslint/recommended'],
   overrides: [
     ...basic.overrides,
@@ -26,4 +28,4 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/prefer-as-const': 'warn',
   },
-};
+});

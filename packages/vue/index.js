@@ -1,4 +1,7 @@
-module.exports = {
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { defineConfig } = require('eslint-define-config');
+
+module.exports = defineConfig({
   globals: {
     // Ref sugar (take 2)
     $: 'readonly',
@@ -36,4 +39,4 @@ module.exports = {
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     'vue/no-v-html': 'off',
   },
-};
+});

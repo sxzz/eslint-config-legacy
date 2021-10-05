@@ -19,6 +19,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
+    "eslint-define-config": "^1.1.1",
     "eslint-plugin-html": "^6.2.0",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsonc": "^1.7.0",
