@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.6.2
+
+### Patch Changes
+
+- d6ea6fd: refactor: update vue rule
+
 ## 1.6.1
 
 ### Patch Changes
