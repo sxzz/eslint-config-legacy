@@ -20,12 +20,12 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
-    "eslint-define-config": "^1.1.1",
+    "eslint-define-config": "^1.1.2",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-yml": "^0.10.1",
     "prettier": "^2.4.1"
   },
   "devDependencies": {
-    "eslint": "^8.0.1"
+    "eslint": "^8.1.0"
   }
 }

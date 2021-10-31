@@ -10,11 +10,11 @@
     "release": "lerna publish --conventional-commits"
   },
   "dependencies": {
-    "eslint-define-config": "^1.1.1"
+    "eslint-define-config": "^1.1.2"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "*",
-    "eslint": "^8.0.1",
+    "eslint": "^8.1.0",
     "lerna": "^4.0.0",
     "typescript": "^4.4.4"
   }

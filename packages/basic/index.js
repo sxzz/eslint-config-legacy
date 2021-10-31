@@ -7,12 +7,7 @@ module.exports = defineConfig({
     browser: true,
     node: true,
   },
-  extends: [
-    'eslint:recommended',
-    'plugin:import/recommended',
-    'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/standard',
-  ],
+  extends: ['eslint:recommended', 'plugin:import/recommended', 'plugin:yml/standard'],
   plugins: ['html', 'unicorn'],
   settings: {
     'import/resolver': {
@@ -21,13 +16,14 @@ module.exports = defineConfig({
   },
   overrides: [
     {
-      files: ['*.json', '*.json5'],
+      files: ['*.json'],
       parser: 'jsonc-eslint-parser',
-      rules: {
-        quotes: ['error', 'double'],
-        'quote-props': ['error', 'always'],
-        'comma-dangle': ['error', 'never'],
-      },
+      extends: 'plugin:jsonc/recommended-with-jsonc',
+    },
+    {
+      files: ['*.json5'],
+      parser: 'jsonc-eslint-parser',
+      extends: 'plugin:jsonc/recommended-with-json5',
     },
     {
       files: ['package.json'],
