@@ -5,10 +5,10 @@ importers:
   .:
     specifiers:
       '@sxzz/eslint-config': '*'
-      eslint: ^8.1.0
+      eslint: 8.1.0
       eslint-define-config: ^1.1.2
-      lerna: ^4.0.0
-      typescript: ^4.4.4
+      lerna: 4.0.0
+      typescript: 4.4.4
     dependencies:
       eslint-define-config: 1.1.2
     devDependencies:
@@ -21,7 +21,7 @@ importers:
     specifiers:
       '@sxzz/eslint-config-prettier': ^1.6.0
       '@sxzz/eslint-config-vue': ^1.6.0
-      eslint: ^8.1.0
+      eslint: 8.1.0
       eslint-define-config: ^1.1.2
     dependencies:
       '@sxzz/eslint-config-prettier': link:../prettier
@@ -32,7 +32,7 @@ importers:
 
   packages/basic:
     specifiers:
-      eslint: ^8.1.0
+      eslint: 8.1.0
       eslint-define-config: ^1.1.2
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.25.2
@@ -51,7 +51,7 @@ importers:
 
   packages/prettier:
     specifiers:
-      eslint: ^8.1.0
+      eslint: 8.1.0
       eslint-config-prettier: ^8.3.0
       eslint-define-config: ^1.1.2
       eslint-plugin-prettier: ^4.0.0
@@ -71,7 +71,7 @@ importers:
       '@sxzz/eslint-config-basic': ^1.6.0
       '@typescript-eslint/eslint-plugin': ^5.1.0
       '@typescript-eslint/parser': ^5.1.0
-      eslint: ^8.1.0
+      eslint: 8.1.0
       eslint-define-config: ^1.1.2
     dependencies:
       '@sxzz/eslint-config-basic': link:../basic
@@ -84,7 +84,7 @@ importers:
   packages/vue:
     specifiers:
       '@sxzz/eslint-config-ts': ^1.6.0
-      eslint: ^8.1.0
+      eslint: 8.1.0
       eslint-define-config: ^1.1.2
       eslint-plugin-vue: ^7.20.0
     dependencies:
@@ -97,7 +97,7 @@ importers:
   packages/vue2:
     specifiers:
       '@sxzz/eslint-config-ts': ^1.6.0
-      eslint: ^8.1.0
+      eslint: 8.1.0
       eslint-define-config: ^1.1.2
       eslint-plugin-vue: ^7.20.0
     dependencies:
@@ -5354,7 +5354,7 @@ packages:
   /wide-align/1.1.5:
     resolution: {integrity: sha512-eDMORYaPNZ4sQIuuYPDHdQvf4gyCF9rEEV/yPxGfwPkRodwEgiMUUXTx/dex+Me0wxx53S+NgUHaP7y3MGlDmg==}
     dependencies:
-      string-width: 1.0.2
+      string-width: 4.2.3
     dev: true
 
   /word-wrap/1.2.3:
