@@ -1,6 +1,6 @@
 {
   "name": "@sxzz/eslint-config-vue2",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@sxzz/eslint-config-ts": "^1.6.0",
+    "@sxzz/eslint-config-ts": "^1.6.1",
     "eslint-define-config": "^1.1.2",
     "eslint-plugin-vue": "^8.0.0"
   },
