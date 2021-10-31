@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@changesets/cli': ^2.17.0
+      '@changesets/cli': 2.17.0
       '@sxzz/eslint-config': '*'
       eslint: 8.1.0
       eslint-define-config: ^1.1.2
@@ -19,8 +19,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@sxzz/eslint-config-prettier': ^1.6.0
-      '@sxzz/eslint-config-vue': ^1.6.0
+      '@sxzz/eslint-config-prettier': ^1.6.1
+      '@sxzz/eslint-config-vue': ^1.6.1
       eslint: 8.1.0
       eslint-define-config: ^1.1.2
     dependencies:
@@ -68,7 +68,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@sxzz/eslint-config-basic': ^1.6.0
+      '@sxzz/eslint-config-basic': ^1.6.1
       '@typescript-eslint/eslint-plugin': ^5.1.0
       '@typescript-eslint/parser': ^5.1.0
       eslint: 8.1.0
@@ -83,7 +83,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@sxzz/eslint-config-ts': ^1.6.0
+      '@sxzz/eslint-config-ts': ^1.6.1
       eslint: 8.1.0
       eslint-define-config: ^1.1.2
       eslint-plugin-vue: ^8.0.0
@@ -96,7 +96,7 @@ importers:
 
   packages/vue2:
     specifiers:
-      '@sxzz/eslint-config-ts': ^1.6.0
+      '@sxzz/eslint-config-ts': ^1.6.1
       eslint: 8.1.0
       eslint-define-config: ^1.1.2
       eslint-plugin-vue: ^8.0.0
