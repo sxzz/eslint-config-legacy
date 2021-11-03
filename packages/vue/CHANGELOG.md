@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.6.3
+
+### Patch Changes
+
+- d8bb78b: support vue jsx
+
 ## 1.6.2
 
 ### Patch Changes
