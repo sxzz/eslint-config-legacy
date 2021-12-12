@@ -9,6 +9,8 @@ module.exports = defineConfig({
     $ref: 'readonly',
     $shallowRef: 'readonly',
     $computed: 'readonly',
+    $customRef: 'readonly',
+    $toRef: 'readonly',
   },
   overrides: [
     {
@@ -30,9 +32,6 @@ module.exports = defineConfig({
       },
       rules: {
         'no-undef': 'off',
-
-        // Ref sugar
-        'prefer-const': 'off',
       },
     },
   ],
@@ -40,6 +39,7 @@ module.exports = defineConfig({
   rules: {
     'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
     'vue/no-v-html': 'off',
+    'vue/multi-word-component-names': 'off',
     'vue/html-self-closing': [
       'error',
       {

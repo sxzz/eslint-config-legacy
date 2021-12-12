@@ -19,6 +19,7 @@ module.exports = defineConfig({
   rules: {
     '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '^h$', argsIgnorePattern: '^h$' }],
     'vue/no-v-html': 'off',
+    'vue/multi-word-component-names': 'off',
     'vue/html-self-closing': [
       'error',
       {
