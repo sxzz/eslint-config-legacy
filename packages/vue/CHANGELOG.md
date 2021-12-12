@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.6.4
+
+### Patch Changes
+
+- c2d1d0a: change some vue rules
+
 ## 1.6.3
 
 ### Patch Changes
