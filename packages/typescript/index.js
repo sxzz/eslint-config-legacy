@@ -13,6 +13,12 @@ module.exports = defineConfig({
         'no-undef': 'off',
       },
     },
+    {
+      files: '.eslintrc.js',
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
   ],
   rules: {
     'no-unused-vars': 'off',
