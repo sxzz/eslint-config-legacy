@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.6.2
+
+### Patch Changes
+
+- 0d4e04e: ignore no-var-requires in eslint config
+
 ## 1.6.1
 
 ### Patch Changes
