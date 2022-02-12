@@ -24,7 +24,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-jsonc": "^2.0.0",
     "eslint-plugin-unicorn": "^37.0.1",
-    "eslint-plugin-yml": "^0.10.1"
+    "eslint-plugin-yml": "^0.13.0"
   },
   "devDependencies": {
     "eslint": "8.9.0"
