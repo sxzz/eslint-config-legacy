@@ -80,4 +80,4 @@ module.exports = {
 
 ## License
 
-MIT License © 2021 [sxzz](https://github.com/sxzz)
+MIT License © 2021-PRESENT [三咲智子](https://github.com/sxzz)
