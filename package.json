@@ -16,6 +16,6 @@
     "@changesets/cli": "2.17.0",
     "@sxzz/eslint-config": "*",
     "eslint": "8.9.0",
-    "typescript": "4.4.4"
+    "typescript": "4.5.5"
   }
 }
