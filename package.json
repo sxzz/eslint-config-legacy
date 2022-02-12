@@ -10,7 +10,7 @@
     "release": "lerna publish --conventional-commits"
   },
   "dependencies": {
-    "eslint-define-config": "^1.1.2"
+    "eslint-define-config": "^1.2.4"
   },
   "devDependencies": {
     "@changesets/cli": "2.20.0",

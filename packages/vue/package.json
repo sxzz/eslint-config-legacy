@@ -16,9 +16,9 @@
     "access": "public"
   },
   "dependencies": {
-    "@sxzz/eslint-config-ts": "^1.6.1",
-    "eslint-define-config": "^1.1.2",
-    "eslint-plugin-vue": "^8.0.0"
+    "@sxzz/eslint-config-ts": "^1.6.2",
+    "eslint-define-config": "^1.2.4",
+    "eslint-plugin-vue": "^8.4.1"
   },
   "devDependencies": {
     "eslint": "8.9.0"
