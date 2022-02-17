@@ -38,14 +38,14 @@ importers:
       eslint-plugin-import: ^2.25.4
       eslint-plugin-jsonc: ^2.1.0
       eslint-plugin-unicorn: ^37.0.1
-      eslint-plugin-yml: ^0.13.0
+      eslint-plugin-yml: ^0.14.0
     dependencies:
       eslint-define-config: 1.2.4
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.25.4_eslint@8.9.0
       eslint-plugin-jsonc: 2.1.0_eslint@8.9.0
       eslint-plugin-unicorn: 37.0.1_eslint@8.9.0
-      eslint-plugin-yml: 0.13.0_eslint@8.9.0
+      eslint-plugin-yml: 0.14.0_eslint@8.9.0
     devDependencies:
       eslint: 8.9.0
 
@@ -55,13 +55,13 @@ importers:
       eslint-config-prettier: ^8.3.0
       eslint-define-config: ^1.2.4
       eslint-plugin-prettier: ^4.0.0
-      eslint-plugin-yml: ^0.13.0
+      eslint-plugin-yml: ^0.14.0
       prettier: ^2.5.1
     dependencies:
       eslint-config-prettier: 8.3.0_eslint@8.9.0
       eslint-define-config: 1.2.4
       eslint-plugin-prettier: 4.0.0_07b422646bb75d3db791621d4fdbc992
-      eslint-plugin-yml: 0.13.0_eslint@8.9.0
+      eslint-plugin-yml: 0.14.0_eslint@8.9.0
       prettier: 2.5.1
     devDependencies:
       eslint: 8.9.0
@@ -1326,8 +1326,8 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-yml/0.13.0_eslint@8.9.0:
-    resolution: {integrity: sha512-rZvdnhe28jIbgSIZo3qYqkl9hKslyTDfMwqIGDzz873gxghzBw0yeFG+P7sMfOkFfpqwJzZy3IKe2cIiCp4FrA==}
+  /eslint-plugin-yml/0.14.0_eslint@8.9.0:
+    resolution: {integrity: sha512-+0+bBV/07txENbxfrHF9olGoLCHez64vmnOmjWOoLwmXOwfdaSRleBSPIi4nWQs7WwX8lm/fSLadOjbVEcsXQQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
