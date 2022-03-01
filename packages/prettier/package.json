@@ -19,13 +19,13 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-define-config": "^1.2.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-define-config": "^1.2.5",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-yml": "^0.14.0",
     "prettier": "^2.5.1"
   },
   "devDependencies": {
-    "eslint": "8.9.0"
+    "eslint": "8.10.0"
   }
 }

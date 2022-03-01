@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "@sxzz/eslint-config-basic": "^1.6.1",
-    "@typescript-eslint/eslint-plugin": "^5.11.0",
-    "@typescript-eslint/parser": "^5.11.0",
-    "eslint-define-config": "^1.2.4"
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "eslint-define-config": "^1.2.5"
   },
   "devDependencies": {
-    "eslint": "8.9.0"
+    "eslint": "8.10.0"
   }
 }
