@@ -3,7 +3,7 @@ const { defineConfig } = require('eslint-define-config');
 
 module.exports = defineConfig({
   globals: {
-    // Ref sugar (take 2)
+    // Reactivity Transform
     $: 'readonly',
     $$: 'readonly',
     $ref: 'readonly',
@@ -29,6 +29,9 @@ module.exports = defineConfig({
         defineEmits: 'readonly',
         defineExpose: 'readonly',
         withDefaults: 'readonly',
+
+        // RFC: https://github.com/vuejs/rfcs/discussions/430
+        defineOptions: 'readonly',
       },
       rules: {
         'no-undef': 'off',
@@ -37,7 +40,7 @@ module.exports = defineConfig({
   ],
   extends: ['plugin:vue/vue3-recommended', '@sxzz/eslint-config-ts'],
   rules: {
-    'vue/max-attributes-per-line': ['warn', { singleline: 5 }],
+    'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
     'vue/multi-word-component-names': 'off',
     'vue/html-self-closing': [
@@ -52,5 +55,8 @@ module.exports = defineConfig({
         math: 'always',
       },
     ],
+
+    // Reactivity Transform
+    'vue/no-setup-props-destructure': 'off',
   },
 });

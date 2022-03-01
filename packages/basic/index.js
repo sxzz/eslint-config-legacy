@@ -68,6 +68,30 @@ module.exports = defineConfig({
         ],
       },
     },
+    {
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js'],
+      rules: {
+        '@typescript-eslint/no-var-requires': 'off',
+      },
+    },
+    {
+      files: ['scripts/**/*.*'],
+      rules: {
+        'no-console': 'off',
+      },
+    },
+    {
+      files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
+      rules: {
+        'no-unused-expressions': 'off',
+      },
+    },
   ],
   rules: {
     // import
@@ -76,6 +100,7 @@ module.exports = defineConfig({
     'import/no-unresolved': 'off',
     'import/no-absolute-path': 'off',
     'import/no-duplicates': 'error',
+    'import/no-named-as-default-member': 'off',
     'import/order': [
       'error',
       {
