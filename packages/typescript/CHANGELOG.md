@@ -1,5 +1,16 @@
 # Change Log
 
+## 1.7.0
+
+### Minor Changes
+
+- 2bb12c9: upgrade deps
+
+### Patch Changes
+
+- Updated dependencies [2bb12c9]
+  - @sxzz/eslint-config-basic@1.7.0
+
 ## 1.6.2
 
 ### Patch Changes

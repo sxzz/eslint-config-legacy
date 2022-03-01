@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.7.0
+
+### Minor Changes
+
+- 2bb12c9: upgrade deps
+
 ## 1.6.1
 
 ### Patch Changes

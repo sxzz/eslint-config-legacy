@@ -1,5 +1,17 @@
 # Change Log
 
+## 1.7.0
+
+### Minor Changes
+
+- 2bb12c9: upgrade deps
+
+### Patch Changes
+
+- Updated dependencies [2bb12c9]
+  - @sxzz/eslint-config-prettier@1.7.0
+  - @sxzz/eslint-config-vue@1.7.0
+
 ## 1.6.1
 
 ### Patch Changes
