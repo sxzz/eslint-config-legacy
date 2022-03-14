@@ -21,6 +21,6 @@
     "eslint-define-config": "^1.2.5"
   },
   "devDependencies": {
-    "eslint": "8.10.0"
+    "eslint": "8.11.0"
   }
 }
