@@ -1,7 +1,24 @@
-# Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.1.0](https://github.com/sxzz/eslint-config/compare/v1.6.0...v2.1.0) (2022-03-22)
+
+
+### Features
+
+* change some vue rules ([c2d1d0a](https://github.com/sxzz/eslint-config/commit/c2d1d0a90979c4d4a6a353bf06330b14f5c6c02c))
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-jsonc to v2 ([#7](https://github.com/sxzz/eslint-config/issues/7)) ([0aeccca](https://github.com/sxzz/eslint-config/commit/0aecccabc672e3d03b7a42c4393102e47057baf2))
+* **deps:** update dependency eslint-plugin-vue to v8 ([#3](https://github.com/sxzz/eslint-config/issues/3)) ([b65ade2](https://github.com/sxzz/eslint-config/commit/b65ade2d2e894fb2a18c5c8fb995f0068404c2cf))
+* **deps:** update dependency eslint-plugin-yml to ^0.13.0 ([#9](https://github.com/sxzz/eslint-config/issues/9)) ([7d00461](https://github.com/sxzz/eslint-config/commit/7d00461468d77fdc0e0bc44844ab7df581e2747a))
+* **deps:** update dependency eslint-plugin-yml to ^0.14.0 ([#16](https://github.com/sxzz/eslint-config/issues/16)) ([6beff3d](https://github.com/sxzz/eslint-config/commit/6beff3df34de819ebd48e1e6b4e77c320cd1e5a9))
+* include hidden files ([92df4b1](https://github.com/sxzz/eslint-config/commit/92df4b10c2b10a368a809ad4ab6a4021bc94dbf9))
+* support vue jsx ([d8bb78b](https://github.com/sxzz/eslint-config/commit/d8bb78bf2d97540abd57f7b9708efa5731e032ce))
+* **typescript:** ignore no-var-requires in eslint config ([0d4e04e](https://github.com/sxzz/eslint-config/commit/0d4e04e8b53fcb08701e73c0917ebb7344536cf4))
 
 # [1.6.0](https://github.com/sxzz/eslint-config/compare/v1.5.0...v1.6.0) (2021-10-15)
 
