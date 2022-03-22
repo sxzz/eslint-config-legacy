@@ -1,26 +1,30 @@
 {
   "name": "@sxzz/eslint-config",
-  "version": "1.7.0",
-  "description": "",
-  "keywords": [],
+  "version": "2.0.0",
+  "description": "三咲智子's ESLint config",
+  "keywords": [
+    "eslint",
+    "config",
+    "preset",
+    "sxzz"
+  ],
   "license": "MIT",
   "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "files": [
     "index.js"
   ],
   "main": "index.js",
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
   "publishConfig": {
     "access": "public"
   },
+  "peerDependencies": {
+    "eslint": ">=8.0.0"
+  },
   "dependencies": {
-    "@sxzz/eslint-config-prettier": "^1.7.0",
-    "@sxzz/eslint-config-vue": "^1.7.0",
-    "eslint-define-config": "^1.2.5"
+    "@sxzz/eslint-config-prettier": "^2.0.0",
+    "@sxzz/eslint-config-vue": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "8.10.0"
+    "eslint": "^8.11.0"
   }
 }

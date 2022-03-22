@@ -1,6 +1,6 @@
 {
   "name": "@sxzz/eslint-config-vue",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -9,18 +9,18 @@
     "index.js"
   ],
   "main": "index.js",
-  "peerDependencies": {
-    "eslint": ">=7.4.0"
-  },
   "publishConfig": {
     "access": "public"
   },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
-    "@sxzz/eslint-config-ts": "^1.7.0",
-    "eslint-define-config": "^1.2.5",
+    "@sxzz/eslint-config-ts": "^2.0.0",
+    "eslint-define-config": "^1.3.0",
     "eslint-plugin-vue": "^8.5.0"
   },
   "devDependencies": {
-    "eslint": "8.10.0"
+    "eslint": "8.11.0"
   }
 }

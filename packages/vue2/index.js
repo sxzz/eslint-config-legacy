@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { defineConfig } = require('eslint-define-config');
 
 module.exports = defineConfig({
@@ -17,7 +16,10 @@ module.exports = defineConfig({
   ],
   extends: ['plugin:vue/recommended', '@sxzz/eslint-config-ts'],
   rules: {
-    '@typescript-eslint/no-unused-vars': ['warn', { varsIgnorePattern: '^h$', argsIgnorePattern: '^h$' }],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      { varsIgnorePattern: '^h$', argsIgnorePattern: '^h$' },
+    ],
     'vue/no-v-html': 'off',
     'vue/multi-word-component-names': 'off',
     'vue/html-self-closing': [

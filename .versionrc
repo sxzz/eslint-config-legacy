@@ -1,0 +1,54 @@
+{
+  "bumpFiles": [
+    {
+      "filename": "packages/all/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/basic/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/prettier/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/typescript/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/vue/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/vue2/package.json",
+      "type": "json"
+    }
+  ],
+  "packageFiles": [
+    {
+      "filename": "packages/all/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/basic/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/prettier/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/typescript/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/vue/package.json",
+      "type": "json"
+    },
+    {
+      "filename": "packages/vue2/package.json",
+      "type": "json"
+    }
+  ]
+}

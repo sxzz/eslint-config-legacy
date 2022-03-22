@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { defineConfig } = require('eslint-define-config');
-
-module.exports = defineConfig({
+module.exports = {
   extends: ['@sxzz/eslint-config-vue', '@sxzz/eslint-config-prettier'],
-});
+};

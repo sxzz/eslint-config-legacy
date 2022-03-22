@@ -1,10 +1,11 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { defineConfig } = require('eslint-define-config');
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const basic = require('@sxzz/eslint-config-basic');
 
 module.exports = defineConfig({
-  extends: ['@sxzz/eslint-config-basic', 'plugin:@typescript-eslint/recommended'],
+  extends: [
+    '@sxzz/eslint-config-basic',
+    'plugin:@typescript-eslint/recommended',
+  ],
   overrides: [
     ...basic.overrides,
     {
@@ -14,7 +15,13 @@ module.exports = defineConfig({
       },
     },
     {
-      files: '.eslintrc.js',
+      files: ['*.d.ts'],
+      rules: {
+        'import/no-duplicates': 'off',
+      },
+    },
+    {
+      files: ['*.js'],
       rules: {
         '@typescript-eslint/no-var-requires': 'off',
       },
@@ -28,7 +35,10 @@ module.exports = defineConfig({
 
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/ban-types': 'off',
-    '@typescript-eslint/consistent-type-imports': ['error', { disallowTypeAnnotations: false }],
+    '@typescript-eslint/consistent-type-imports': [
+      'error',
+      { disallowTypeAnnotations: false },
+    ],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',

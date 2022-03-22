@@ -1,4 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { defineConfig } = require('eslint-define-config');
 
 module.exports = defineConfig({
@@ -7,7 +6,30 @@ module.exports = defineConfig({
     browser: true,
     node: true,
   },
-  extends: ['eslint:recommended', 'plugin:import/recommended', 'plugin:yml/standard'],
+  extends: [
+    'eslint:recommended',
+    'plugin:import/recommended',
+    'plugin:eslint-comments/recommended',
+    'plugin:jsonc/recommended-with-jsonc',
+    'plugin:yml/standard',
+    'plugin:markdown/recommended',
+  ],
+  ignorePatterns: [
+    '*.min.*',
+    'CHANGELOG.md',
+    'dist',
+    'LICENSE*',
+    'output',
+    'coverage',
+    'temp',
+    'packages-lock.json',
+    'pnpm-lock.yaml',
+    'yarn.lock',
+    '__snapshots__',
+    '!.github',
+    '!.vitepress',
+    '!.vscode',
+  ],
   plugins: ['html', 'unicorn'],
   settings: {
     'import/resolver': {
@@ -16,14 +38,8 @@ module.exports = defineConfig({
   },
   overrides: [
     {
-      files: ['*.json'],
+      files: ['*.json', '*.json5', '*.jsonc', '*rc'],
       parser: 'jsonc-eslint-parser',
-      extends: 'plugin:jsonc/recommended-with-jsonc',
-    },
-    {
-      files: ['*.json5'],
-      parser: 'jsonc-eslint-parser',
-      extends: 'plugin:jsonc/recommended-with-json5',
     },
     {
       files: ['package.json'],
@@ -36,29 +52,42 @@ module.exports = defineConfig({
             order: [
               'name',
               'version',
-              'description',
-              'keywords',
-              'license',
               'private',
-              'repository',
-              'funding',
-              'author',
+              'packageManager',
+              'description',
               'type',
+              'keywords',
+              'homepage',
+              'bugs',
+              'license',
+              'author',
+              'contributors',
+              'funding',
               'files',
-              'exports',
               'main',
               'module',
+              'exports',
               'unpkg',
+              'jsdelivr',
+              'browser',
               'bin',
+              'man',
+              'directories',
+              'repository',
+              'publishConfig',
               'scripts',
               'peerDependencies',
               'peerDependenciesMeta',
+              'optionalDependencies',
               'dependencies',
               'devDependencies',
+              'engines',
+              'config',
+              'overrides',
+              'pnpm',
               'husky',
               'lint-staged',
               'eslintConfig',
-              'config',
             ],
           },
           {
@@ -69,19 +98,7 @@ module.exports = defineConfig({
       },
     },
     {
-      files: ['*.d.ts'],
-      rules: {
-        'import/no-duplicates': 'off',
-      },
-    },
-    {
-      files: ['*.js'],
-      rules: {
-        '@typescript-eslint/no-var-requires': 'off',
-      },
-    },
-    {
-      files: ['scripts/**/*.*'],
+      files: ['scripts/**/*.*', 'cli.*'],
       rules: {
         'no-console': 'off',
       },
@@ -90,6 +107,23 @@ module.exports = defineConfig({
       files: ['*.test.ts', '*.test.js', '*.spec.ts', '*.spec.js'],
       rules: {
         'no-unused-expressions': 'off',
+      },
+    },
+    {
+      // Code blocks in markdown file
+      files: ['**/*.md/*.*'],
+      rules: {
+        '@typescript-eslint/no-redeclare': 'off',
+        '@typescript-eslint/no-unused-vars': 'off',
+        '@typescript-eslint/no-use-before-define': 'off',
+        '@typescript-eslint/no-var-requires': 'off',
+        'import/no-unresolved': 'off',
+        'no-alert': 'off',
+        'no-console': 'off',
+        'no-restricted-imports': 'off',
+        'no-undef': 'off',
+        'no-unused-expressions': 'off',
+        'no-unused-vars': 'off',
       },
     },
   ],
@@ -101,10 +135,20 @@ module.exports = defineConfig({
     'import/no-absolute-path': 'off',
     'import/no-duplicates': 'error',
     'import/no-named-as-default-member': 'off',
+    'import/named': 'off',
     'import/order': [
       'error',
       {
-        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index', 'object', 'type'],
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+          'object',
+          'type',
+        ],
         pathGroups: [{ pattern: '@/**', group: 'internal' }],
         pathGroupsExcludedImportTypes: ['type'],
       },
@@ -115,14 +159,40 @@ module.exports = defineConfig({
     'no-constant-condition': 'warn',
     'no-debugger': 'warn',
     'no-console': ['warn', { allow: ['warn', 'error'] }],
-    'no-restricted-syntax': ['error', 'ForInStatement', 'LabeledStatement', 'WithStatement'],
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
     'no-return-await': 'warn',
+    'no-empty': ['error', { allowEmptyCatch: true }],
+    'sort-imports': [
+      'error',
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: true,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
+        allowSeparatedGroups: false,
+      },
+    ],
 
     // es6
     'no-var': 'error',
-    'prefer-const': ['warn', { destructuring: 'all', ignoreReadBeforeAssign: true }],
-    'prefer-arrow-callback': ['error', { allowNamedFunctions: false, allowUnboundThis: true }],
-    'object-shorthand': ['error', 'always', { ignoreConstructors: false, avoidQuotes: true }],
+    'prefer-const': [
+      'warn',
+      { destructuring: 'all', ignoreReadBeforeAssign: true },
+    ],
+    'prefer-arrow-callback': [
+      'error',
+      { allowNamedFunctions: false, allowUnboundThis: true },
+    ],
+    'object-shorthand': [
+      'error',
+      'always',
+      { ignoreConstructors: false, avoidQuotes: true },
+    ],
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
@@ -188,5 +258,10 @@ module.exports = defineConfig({
     'unicorn/prefer-string-trim-start-end': 'error',
     'unicorn/prefer-type-error': 'error',
     'unicorn/throw-new-error': 'error',
+
+    'eslint-comments/disable-enable-pair': 'off',
+
+    'jsonc/quote-props': 'off',
+    'jsonc/quotes': 'off',
   },
 });

@@ -1,6 +1,6 @@
 {
   "name": "@sxzz/eslint-config-prettier",
-  "version": "1.7.0",
+  "version": "2.0.0",
   "description": "Prettier Config",
   "keywords": [],
   "license": "MIT",
@@ -9,9 +9,6 @@
     "index.js"
   ],
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint . --config=index.js"
-  },
   "publishConfig": {
     "access": "public"
   },
@@ -20,12 +17,12 @@
   },
   "dependencies": {
     "eslint-config-prettier": "^8.5.0",
-    "eslint-define-config": "^1.2.5",
+    "eslint-define-config": "^1.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-yml": "^0.14.0",
-    "prettier": "^2.5.1"
+    "prettier": "^2.6.0"
   },
   "devDependencies": {
-    "eslint": "8.10.0"
+    "eslint": "8.11.0"
   }
 }
