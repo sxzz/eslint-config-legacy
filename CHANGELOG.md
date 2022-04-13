@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/sxzz/eslint-config/compare/v2.1.0...v2.1.1) (2022-04-13)
+
+
+### Bug Fixes
+
+* cjs require ([c3fd51f](https://github.com/sxzz/eslint-config/commit/c3fd51f4f3e06158e2ff9d75b65df1aa0e84649d))
+* **deps:** update all non-major dependencies ([#24](https://github.com/sxzz/eslint-config/issues/24)) ([612dbd5](https://github.com/sxzz/eslint-config/commit/612dbd50b203207088742f5da09b11c6790f7e75))
+* **deps:** update dependency eslint-plugin-unicorn to v42 ([#25](https://github.com/sxzz/eslint-config/issues/25)) ([fb89407](https://github.com/sxzz/eslint-config/commit/fb8940729cf3549da52eba4de8f0ba9a55632f25))
+* disable import rule ([b4992c2](https://github.com/sxzz/eslint-config/commit/b4992c22c06a984485d0952c22a0e8e3b23460ed))
+
 ## [2.1.0](https://github.com/sxzz/eslint-config/compare/v1.6.0...v2.1.0) (2022-03-22)
 
 
