@@ -34,7 +34,7 @@ module.exports = {
 };
 ```
 
-```json
+```jsonc
 // .prettierrc
 {
   "singleQuote": true,
@@ -48,7 +48,7 @@ module.exports = {
 
 ### VSCode
 
-```json
+```jsonc
 // settings.json
 {
   "eslint.validate": [
@@ -77,6 +77,14 @@ module.exports = {
   ]
 }
 ```
+
+## Sponsors
+
+<p align="center">
+  <a href="https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg">
+    <img src='https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg'/>
+  </a>
+</p>
 
 ## License
 
