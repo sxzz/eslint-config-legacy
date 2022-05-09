@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/sxzz/eslint-config/compare/v2.1.1...v2.2.0) (2022-05-09)
+
+
+### Features
+
+* move package.json field order ([b7f16b8](https://github.com/sxzz/eslint-config/commit/b7f16b8385772da6792396a374e18091a9d681bc))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#26](https://github.com/sxzz/eslint-config/issues/26)) ([96ede34](https://github.com/sxzz/eslint-config/commit/96ede34f8790b41cecb9f7cf0a2cdd60f2bca933))
+
 ### [2.1.1](https://github.com/sxzz/eslint-config/compare/v2.1.0...v2.1.1) (2022-04-13)
 
 
