@@ -8,12 +8,20 @@
     "preset",
     "sxzz"
   ],
+  "homepage": "https://github.com/sxzz/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/sxzz/eslint-config/issues"
+  },
   "license": "MIT",
   "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "files": [
     "index.js"
   ],
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxzz/eslint-config.git"
+  },
   "publishConfig": {
     "access": "public"
   },
