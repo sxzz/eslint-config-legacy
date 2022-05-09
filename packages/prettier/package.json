@@ -3,20 +3,20 @@
   "version": "2.1.1",
   "description": "Prettier Config",
   "keywords": [],
+  "license": "MIT",
   "homepage": "https://github.com/sxzz/eslint-config#readme",
   "bugs": {
     "url": "https://github.com/sxzz/eslint-config/issues"
   },
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sxzz/eslint-config.git"
+  },
   "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "files": [
     "index.js"
   ],
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sxzz/eslint-config.git"
-  },
   "publishConfig": {
     "access": "public"
   },
