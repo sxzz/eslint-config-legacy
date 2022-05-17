@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.1](https://github.com/sxzz/eslint-config/compare/v2.2.0...v2.2.1) (2022-05-17)
+
+
+### Bug Fixes
+
+* add typescript ([e55ec6e](https://github.com/sxzz/eslint-config/commit/e55ec6e63a4ac7b9379861dd4268dcb4e3f76c1c))
+* **deps:** update all non-major dependencies ([#27](https://github.com/sxzz/eslint-config/issues/27)) ([ced3773](https://github.com/sxzz/eslint-config/commit/ced3773618e2012a7628f98459f8f4f628ecf15a))
+
 ## [2.2.0](https://github.com/sxzz/eslint-config/compare/v2.1.1...v2.2.0) (2022-05-09)
 
 
