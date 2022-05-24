@@ -29,10 +29,10 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@sxzz/eslint-config-prettier": "^2.2.0",
-    "@sxzz/eslint-config-vue": "^2.2.0"
+    "@sxzz/eslint-config-prettier": "^2.2.1",
+    "@sxzz/eslint-config-vue": "^2.2.1"
   },
   "devDependencies": {
-    "eslint": "^8.15.0"
+    "eslint": "^8.16.0"
   }
 }
