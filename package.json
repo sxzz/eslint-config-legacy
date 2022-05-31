@@ -5,7 +5,7 @@
   "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.json,.json5,.vue,.md --fix",
-    "release": "standard-version"
+    "release": "standard-version && pnpm publish -r"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "workspace:*",
