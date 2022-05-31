@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.2](https://github.com/sxzz/eslint-config/compare/v2.2.1...v2.2.2) (2022-05-31)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#28](https://github.com/sxzz/eslint-config/issues/28)) ([8b54e64](https://github.com/sxzz/eslint-config/commit/8b54e643df309e9fea152a3755dbe63a7b93710f))
+* **deps:** update all non-major dependencies ([#30](https://github.com/sxzz/eslint-config/issues/30)) ([2a8edf2](https://github.com/sxzz/eslint-config/commit/2a8edf2454ace1cc261fc5b75babc425c196b328))
+* **deps:** update dependency eslint-plugin-vue to v9 ([#29](https://github.com/sxzz/eslint-config/issues/29)) ([98e360d](https://github.com/sxzz/eslint-config/commit/98e360d2fc96333eaff7a8432614db80987f660f))
+* **deps:** update dependency eslint-plugin-yml to v1 ([#31](https://github.com/sxzz/eslint-config/issues/31)) ([a906801](https://github.com/sxzz/eslint-config/commit/a906801cd0fafe73cd851230654777164f461365))
+
 ### [2.2.1](https://github.com/sxzz/eslint-config/compare/v2.2.0...v2.2.1) (2022-05-17)
 
 
