@@ -87,11 +87,11 @@ importers:
       '@sxzz/eslint-config-ts': ^2.2.2
       eslint: 8.17.0
       eslint-define-config: ^1.5.1
-      eslint-plugin-vue: ^9.1.0
+      eslint-plugin-vue: ^9.1.1
     dependencies:
       '@sxzz/eslint-config-ts': link:../typescript
       eslint-define-config: 1.5.1
-      eslint-plugin-vue: 9.1.0_eslint@8.17.0
+      eslint-plugin-vue: 9.1.1_eslint@8.17.0
     devDependencies:
       eslint: 8.17.0
 
@@ -100,11 +100,11 @@ importers:
       '@sxzz/eslint-config-ts': ^2.2.2
       eslint: 8.17.0
       eslint-define-config: ^1.5.1
-      eslint-plugin-vue: ^9.1.0
+      eslint-plugin-vue: ^9.1.1
     dependencies:
       '@sxzz/eslint-config-ts': link:../typescript
       eslint-define-config: 1.5.1
-      eslint-plugin-vue: 9.1.0_eslint@8.17.0
+      eslint-plugin-vue: 9.1.1_eslint@8.17.0
     devDependencies:
       eslint: 8.17.0
 
@@ -1112,8 +1112,8 @@ packages:
       strip-indent: 3.0.0
     dev: false
 
-  /eslint-plugin-vue/9.1.0_eslint@8.17.0:
-    resolution: {integrity: sha512-EPCeInPicQ/YyfOWJDr1yfEeSNoFCMzUus107lZyYi37xejdOolNzS5MXGXp8+9bkoKZMdv/1AcZzQebME6r+g==}
+  /eslint-plugin-vue/9.1.1_eslint@8.17.0:
+    resolution: {integrity: sha512-W9n5PB1X2jzC7CK6riG0oAcxjmKrjTF6+keL1rni8n57DZeilx/Fulz+IRJK3lYseLNAygN0I62L7DvioW40Tw==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0 || ^8.0.0
@@ -2641,7 +2641,7 @@ packages:
       punycode: 2.1.1
 
   /util-deprecate/1.0.2:
-    resolution: {integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=}
+    resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
   /v8-compile-cache/2.3.0:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
