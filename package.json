@@ -2,7 +2,7 @@
   "name": "@sxzz/eslint-config-monorepo",
   "private": true,
   "license": "MIT",
-  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
+  "author": "三咲智子 <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.json,.json5,.vue,.md --fix",
     "release": "bumpp package.json packages/*/package.json && pnpm publish -r"

@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/sxzz/eslint-config.git"
   },
-  "author": "Kevin <sxzz@sxzz.moe> (https://github.com/sxzz/)",
+  "author": "三咲智子 <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "files": [
     "index.js"
   ],
