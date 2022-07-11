@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/sxzz/eslint-config/compare/v2.2.2...v2.3.0) (2022-07-11)
+
+
+### Features
+
+* auto detect vue version ([08f4d29](https://github.com/sxzz/eslint-config/commit/08f4d2964410f59ba8178adcdb21ca76c21e2871))
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([#32](https://github.com/sxzz/eslint-config/issues/32)) ([1494874](https://github.com/sxzz/eslint-config/commit/1494874150cdab69a367fe83164694fa27eddf43))
+* **deps:** update all non-major dependencies ([#37](https://github.com/sxzz/eslint-config/issues/37)) ([598409c](https://github.com/sxzz/eslint-config/commit/598409c91456d7084d74ae223f05fcfb19ae3009))
+* **deps:** update all non-major dependencies ([#38](https://github.com/sxzz/eslint-config/issues/38)) ([c0ce898](https://github.com/sxzz/eslint-config/commit/c0ce89837428e5024da95e28fad7906b27802324))
+* **deps:** update all non-major dependencies ([#39](https://github.com/sxzz/eslint-config/issues/39)) ([a01f945](https://github.com/sxzz/eslint-config/commit/a01f945e66a408c1c2fe53a563f8b532e50f5e99))
+* **deps:** update all non-major dependencies ([#41](https://github.com/sxzz/eslint-config/issues/41)) ([edbf6bb](https://github.com/sxzz/eslint-config/commit/edbf6bb028bb797a5eb58c9f9fb871f57970c29f))
+* **deps:** update dependency eslint-plugin-unicorn to v43 ([#40](https://github.com/sxzz/eslint-config/issues/40)) ([e92ed40](https://github.com/sxzz/eslint-config/commit/e92ed407e9b6c29e1b1906f5ef0b8a5c92aa1232))
+* **deps:** update dependency eslint-plugin-vue to ^9.1.1 ([#34](https://github.com/sxzz/eslint-config/issues/34)) ([49f9a56](https://github.com/sxzz/eslint-config/commit/49f9a5693f56ec4d70c98bc6c216e42e22970879))
+
 ### [2.2.2](https://github.com/sxzz/eslint-config/compare/v2.2.1...v2.2.2) (2022-05-31)
 
 
