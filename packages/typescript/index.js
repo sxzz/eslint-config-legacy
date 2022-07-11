@@ -1,5 +1,5 @@
-const { defineConfig } = require('eslint-define-config');
-const basic = require('@sxzz/eslint-config-basic');
+const { defineConfig } = require('eslint-define-config')
+const basic = require('@sxzz/eslint-config-basic')
 
 module.exports = defineConfig({
   extends: [
@@ -44,4 +44,4 @@ module.exports = defineConfig({
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/prefer-as-const': 'warn',
   },
-});
+})

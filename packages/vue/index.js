@@ -1,4 +1,4 @@
-const { defineConfig } = require('eslint-define-config');
+const { defineConfig } = require('eslint-define-config')
 
 module.exports = defineConfig({
   globals: {
@@ -58,4 +58,4 @@ module.exports = defineConfig({
     // Reactivity Transform
     'vue/no-setup-props-destructure': 'off',
   },
-});
+})

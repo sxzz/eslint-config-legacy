@@ -1,4 +1,4 @@
-const { defineConfig } = require('eslint-define-config');
+const { defineConfig } = require('eslint-define-config')
 
 module.exports = defineConfig({
   overrides: [
@@ -35,4 +35,4 @@ module.exports = defineConfig({
       },
     ],
   },
-});
+})

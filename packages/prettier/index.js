@@ -1,4 +1,4 @@
-const { defineConfig } = require('eslint-define-config');
+const { defineConfig } = require('eslint-define-config')
 
 module.exports = defineConfig({
   extends: ['plugin:yml/prettier', 'prettier'],
@@ -6,4 +6,4 @@ module.exports = defineConfig({
   rules: {
     'prettier/prettier': 'warn',
   },
-});
+})
