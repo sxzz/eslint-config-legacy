@@ -88,10 +88,12 @@ importers:
       eslint: 8.19.0
       eslint-define-config: ^1.5.1
       eslint-plugin-vue: ^9.2.0
+      local-pkg: ^0.4.1
     dependencies:
       '@sxzz/eslint-config-ts': link:../typescript
       eslint-define-config: 1.5.1
       eslint-plugin-vue: 9.2.0_eslint@8.19.0
+      local-pkg: 0.4.1
     devDependencies:
       eslint: 8.19.0
 
@@ -1812,6 +1814,11 @@ packages:
       pify: 3.0.0
       strip-bom: 3.0.0
     dev: true
+
+  /local-pkg/0.4.1:
+    resolution: {integrity: sha512-lL87ytIGP2FU5PWwNDo0w3WhIo2gopIAxPg9RxDYF7m4rr5ahuZxP22xnJHIvaLTe4Z9P6uKKY2UHiwyB4pcrw==}
+    engines: {node: '>=14'}
+    dev: false
 
   /locate-path/2.0.0:
     resolution: {integrity: sha512-NCI2kiDkyR7VeEKm27Kda/iQHyKJe1Bu0FlTbYp3CqJu+9IFe9bLyAjMxf5ZDDbEg+iMPzB5zYyUTSm8wVTKmA==}

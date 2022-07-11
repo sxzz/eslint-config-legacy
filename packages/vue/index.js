@@ -1,4 +1,15 @@
+const { readFileSync } = require('fs')
 const { defineConfig } = require('eslint-define-config')
+const { resolveModule } = require('local-pkg')
+
+const vuePath = resolveModule('vue/package.json')
+let pkg
+try {
+  pkg = JSON.parse(readFileSync(vuePath, 'utf8'))
+} catch {}
+let vueVersion = pkg && pkg.version
+vueVersion = +(vueVersion && vueVersion[0])
+vueVersion = Number.isNaN(vueVersion) ? 3 : vueVersion
 
 module.exports = defineConfig({
   globals: {
@@ -32,12 +43,12 @@ module.exports = defineConfig({
         // RFC: https://github.com/vuejs/rfcs/discussions/430
         defineOptions: 'readonly',
       },
-      rules: {
-        'no-undef': 'off',
-      },
     },
   ],
-  extends: ['plugin:vue/vue3-recommended', '@sxzz/eslint-config-ts'],
+  extends: [
+    vueVersion === 3 ? 'plugin:vue/vue3-recommended' : 'plugin:vue/recommended',
+    '@sxzz/eslint-config-ts',
+  ],
   rules: {
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
