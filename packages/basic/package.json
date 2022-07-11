@@ -30,7 +30,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jsonc": "^2.3.1",
     "eslint-plugin-markdown": "^2.2.1",
-    "eslint-plugin-unicorn": "^43.0.0",
+    "eslint-plugin-unicorn": "^43.0.1",
     "eslint-plugin-yml": "^1.0.0"
   },
   "devDependencies": {

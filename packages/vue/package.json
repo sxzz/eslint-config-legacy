@@ -26,7 +26,7 @@
   "dependencies": {
     "@sxzz/eslint-config-ts": "^2.2.2",
     "eslint-define-config": "^1.5.1",
-    "eslint-plugin-vue": "^9.1.1"
+    "eslint-plugin-vue": "^9.2.0"
   },
   "devDependencies": {
     "eslint": "8.19.0"
