@@ -29,8 +29,8 @@
     "eslint": ">=8.0.0"
   },
   "dependencies": {
-    "@sxzz/eslint-config-prettier": "^2.2.2",
-    "@sxzz/eslint-config-vue": "^2.2.2"
+    "@sxzz/eslint-config-prettier": "workspace:^2.3.0",
+    "@sxzz/eslint-config-vue": "workspace:^2.3.0"
   },
   "devDependencies": {
     "eslint": "^8.19.0"

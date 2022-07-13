@@ -24,11 +24,16 @@
     "eslint": ">=7.4.0",
     "vue": "^2.0.0 || ^3.0.0"
   },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  },
   "dependencies": {
-    "@sxzz/eslint-config-ts": "^2.2.2",
+    "@sxzz/eslint-config-ts": "workspace:^2.3.0",
     "eslint-define-config": "^1.5.1",
     "eslint-plugin-vue": "^9.2.0",
-    "local-pkg": "^0.4.1"
+    "local-pkg": "^0.4.2"
   },
   "devDependencies": {
     "eslint": "8.19.0"

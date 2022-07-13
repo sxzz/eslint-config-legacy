@@ -24,7 +24,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@sxzz/eslint-config-ts": "^2.2.2",
+    "@sxzz/eslint-config-ts": "workspace:^2.3.0",
     "eslint-define-config": "^1.5.1",
     "eslint-plugin-vue": "^9.2.0"
   },
