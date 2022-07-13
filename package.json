@@ -1,5 +1,6 @@
 {
   "name": "@sxzz/eslint-config-monorepo",
+  "version": "2.3.2",
   "private": true,
   "license": "MIT",
   "author": "三咲智子 <sxzz@sxzz.moe> (https://github.com/sxzz/)",
@@ -8,10 +9,9 @@
     "release": "bumpp package.json packages/*/package.json && pnpm publish -r"
   },
   "devDependencies": {
-    "@sxzz/eslint-config": "workspace:^2.3.0",
+    "@sxzz/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
     "eslint": "^8.19.0",
     "typescript": "^4.7.4"
-  },
-  "version": "2.3.2"
+  }
 }
