@@ -1,12 +1,7 @@
-const { readFileSync } = require('fs')
 const { defineConfig } = require('eslint-define-config')
-const { resolveModule } = require('local-pkg')
+const { getPackageInfoSync } = require('local-pkg')
 
-const vuePath = resolveModule('vue/package.json')
-let pkg
-try {
-  pkg = JSON.parse(readFileSync(vuePath, 'utf8'))
-} catch {}
+const pkg = getPackageInfoSync('vue')
 let vueVersion = pkg && pkg.version
 vueVersion = +(vueVersion && vueVersion[0])
 vueVersion = Number.isNaN(vueVersion) ? 3 : vueVersion
