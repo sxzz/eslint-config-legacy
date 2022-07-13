@@ -97,19 +97,6 @@ importers:
     devDependencies:
       eslint: 8.19.0
 
-  packages/vue2:
-    specifiers:
-      '@sxzz/eslint-config-ts': workspace:^2.3.0
-      eslint: 8.19.0
-      eslint-define-config: ^1.5.1
-      eslint-plugin-vue: ^9.2.0
-    dependencies:
-      '@sxzz/eslint-config-ts': link:../typescript
-      eslint-define-config: 1.5.1
-      eslint-plugin-vue: 9.2.0_eslint@8.19.0
-    devDependencies:
-      eslint: 8.19.0
-
 packages:
 
   /@babel/code-frame/7.18.6:
