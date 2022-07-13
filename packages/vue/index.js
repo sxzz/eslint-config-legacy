@@ -38,6 +38,9 @@ module.exports = defineConfig({
         // RFC: https://github.com/vuejs/rfcs/discussions/430
         defineOptions: 'readonly',
       },
+      rules: {
+        'no-undef': 'off',
+      },
     },
   ],
   extends: [
