@@ -16,8 +16,8 @@ importers:
 
   packages/all:
     specifiers:
-      '@sxzz/eslint-config-prettier': workspace:^2.3.0
-      '@sxzz/eslint-config-vue': workspace:^2.3.0
+      '@sxzz/eslint-config-prettier': workspace:*
+      '@sxzz/eslint-config-vue': workspace:*
       eslint: ^8.19.0
     dependencies:
       '@sxzz/eslint-config-prettier': link:../prettier
@@ -33,7 +33,7 @@ importers:
       eslint-plugin-html: ^6.2.0
       eslint-plugin-import: ^2.26.0
       eslint-plugin-jsonc: ^2.3.1
-      eslint-plugin-markdown: ^2.2.1
+      eslint-plugin-markdown: ^3.0.0
       eslint-plugin-unicorn: ^43.0.1
       eslint-plugin-yml: ^1.0.0
     dependencies:
@@ -42,7 +42,7 @@ importers:
       eslint-plugin-html: 6.2.0
       eslint-plugin-import: 2.26.0_eslint@8.19.0
       eslint-plugin-jsonc: 2.3.1_eslint@8.19.0
-      eslint-plugin-markdown: 2.2.1_eslint@8.19.0
+      eslint-plugin-markdown: 3.0.0_eslint@8.19.0
       eslint-plugin-unicorn: 43.0.1_eslint@8.19.0
       eslint-plugin-yml: 1.0.0_eslint@8.19.0
     devDependencies:
@@ -67,7 +67,7 @@ importers:
 
   packages/typescript:
     specifiers:
-      '@sxzz/eslint-config-basic': workspace:^2.3.0
+      '@sxzz/eslint-config-basic': workspace:*
       '@typescript-eslint/eslint-plugin': ^5.30.6
       '@typescript-eslint/parser': ^5.30.6
       eslint: 8.19.0
@@ -84,7 +84,7 @@ importers:
 
   packages/vue:
     specifiers:
-      '@sxzz/eslint-config-ts': workspace:^2.3.0
+      '@sxzz/eslint-config-ts': workspace:*
       eslint: 8.19.0
       eslint-define-config: ^1.5.1
       eslint-plugin-vue: ^9.2.0
@@ -789,11 +789,11 @@ packages:
       natural-compare: 1.4.0
     dev: false
 
-  /eslint-plugin-markdown/2.2.1_eslint@8.19.0:
-    resolution: {integrity: sha512-FgWp4iyYvTFxPwfbxofTvXxgzPsDuSKHQy2S+a8Ve6savbujey+lgrFFbXQA0HPygISpRYWYBjooPzhYSF81iA==}
-    engines: {node: ^8.10.0 || ^10.12.0 || >= 12.0.0}
+  /eslint-plugin-markdown/3.0.0_eslint@8.19.0:
+    resolution: {integrity: sha512-hRs5RUJGbeHDLfS7ELanT0e29Ocyssf/7kBM+p7KluY5AwngGkDf8Oyu4658/NZSGTTq05FZeWbkxXtbVyHPwg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
-      eslint: '>=6.0.0'
+      eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
     dependencies:
       eslint: 8.19.0
       mdast-util-from-markdown: 0.8.5
