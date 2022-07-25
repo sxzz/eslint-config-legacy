@@ -1,3 +1,4 @@
 {
-  "extends": "@sxzz/eslint-config"
+  "root": true,
+  "extends": "@sxzz"
 }
