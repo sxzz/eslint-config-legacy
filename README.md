@@ -1,5 +1,7 @@
 # @sxzz/eslint-config
 
+ESLint config for JavaScript, TypeScript, Vue 2, Vue 3, Prettier.
+
 Forked from [antfu/eslint-config](https://github.com/antfu/eslint-config)
 
 ## Usage
@@ -8,11 +10,9 @@ Forked from [antfu/eslint-config](https://github.com/antfu/eslint-config)
 pnpm i -D @sxzz/eslint-config-basic # JavaScript only
 # Or yarn add -D / npm install -D
 pnpm i -D @sxzz/eslint-config-ts # JavaScript and TypeScript
-pnpm i -D @sxzz/eslint-config-vue # JavaScript, TypeScript and Vue 3
-pnpm i -D @sxzz/eslint-config-vue2 # JavaScript, TypeScript and Vue 2
-
+pnpm i -D @sxzz/eslint-config-vue # JavaScript, TypeScript and Vue 2/3 (Auto detect)
 pnpm i -D @sxzz/eslint-config-prettier # Prettier only
-pnpm i -D @sxzz/eslint-config # JavaScript, TypeScript, Vue 3 and Prettier
+pnpm i -D @sxzz/eslint-config # JavaScript, TypeScript, Vue 2/3 and Prettier
 ```
 
 ## Quick start
@@ -31,7 +31,7 @@ module.exports = {
   rules: {
     // Your custom rules
   },
-};
+}
 ```
 
 ```jsonc
