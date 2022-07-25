@@ -25,6 +25,7 @@ module.exports = defineConfig({
     'packages-lock.json',
     'pnpm-lock.yaml',
     'yarn.lock',
+    'fixtures',
     '__snapshots__',
     '!.github',
     '!.vitepress',
