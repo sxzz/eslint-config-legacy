@@ -257,7 +257,7 @@ module.exports = defineConfig({
     'unicorn/prefer-prototype-methods': 'error',
     'unicorn/prefer-query-selector': 'error',
     'unicorn/prefer-reflect-apply': 'error',
-    'unicorn/prefer-string-replace-all': 'error',
+    // 'unicorn/prefer-string-replace-all': 'error',
     'unicorn/prefer-string-slice': 'error',
     'unicorn/prefer-string-starts-ends-with': 'error',
     'unicorn/prefer-string-trim-start-end': 'error',
