@@ -204,6 +204,7 @@ module.exports = defineConfig({
     // best-practice
     'array-callback-return': 'error',
     'block-scoped-var': 'error',
+    eqeqeq: ['error', 'smart'],
     'no-alert': 'warn',
     'no-case-declarations': 'error',
     'no-fallthrough': ['warn', { commentPattern: 'break[\\s\\w]*omitted' }],
