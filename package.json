@@ -1,6 +1,6 @@
 {
   "name": "@sxzz/eslint-config-monorepo",
-  "version": "2.3.4",
+  "version": "2.3.5",
   "private": true,
   "license": "MIT",
   "author": "三咲智子 <sxzz@sxzz.moe> (https://github.com/sxzz/)",
