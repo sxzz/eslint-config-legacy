@@ -268,5 +268,7 @@ module.exports = defineConfig({
 
     'jsonc/quote-props': 'off',
     'jsonc/quotes': 'off',
+
+    'yml/no-empty-mapping-value': 'off',
   },
 })
