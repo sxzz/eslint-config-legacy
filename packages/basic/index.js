@@ -8,7 +8,6 @@ module.exports = defineConfig({
   },
   extends: [
     'eslint:recommended',
-    'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
     'plugin:yml/standard',
@@ -31,7 +30,7 @@ module.exports = defineConfig({
     '!.vitepress',
     '!.vscode',
   ],
-  plugins: ['html', 'unicorn'],
+  plugins: ['import', 'html', 'unicorn'],
   settings: {
     'import/resolver': {
       node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
@@ -119,7 +118,6 @@ module.exports = defineConfig({
         '@typescript-eslint/no-unused-vars': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
         '@typescript-eslint/no-var-requires': 'off',
-        'import/no-unresolved': 'off',
         'no-alert': 'off',
         'no-console': 'off',
         'no-restricted-imports': 'off',
@@ -133,13 +131,7 @@ module.exports = defineConfig({
     // import
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
-    'import/no-unresolved': 'off',
-    'import/no-absolute-path': 'off',
     'import/no-duplicates': 'error',
-    'import/no-named-as-default': 'off',
-    'import/no-named-as-default-member': 'off',
-    'import/named': 'off',
-    'import/namespace': 'off',
     'import/order': [
       'error',
       {
