@@ -6,6 +6,7 @@ module.exports = defineConfig({
     '@sxzz/eslint-config-basic',
     'plugin:@typescript-eslint/recommended',
   ],
+  ignorePatterns: ['auto-import.d.ts', 'components.d.ts'],
   overrides: [
     ...basic.overrides,
     {
