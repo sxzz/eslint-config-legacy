@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "@sxzz/eslint-config-ts": "workspace:*",
-    "eslint-define-config": "^1.6.0",
+    "eslint-define-config": "^1.7.0",
     "eslint-plugin-vue": "^9.4.0",
     "local-pkg": "^0.4.2"
   },
