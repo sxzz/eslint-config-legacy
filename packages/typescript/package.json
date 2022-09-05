@@ -26,9 +26,9 @@
   },
   "dependencies": {
     "@sxzz/eslint-config-basic": "workspace:*",
-    "@typescript-eslint/eslint-plugin": "^5.35.1",
-    "@typescript-eslint/parser": "^5.35.1",
-    "eslint-define-config": "^1.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint-define-config": "^1.7.0",
     "typescript": "^4.8.2"
   },
   "devDependencies": {
