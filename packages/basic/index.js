@@ -192,6 +192,7 @@ module.exports = defineConfig({
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
+    'require-await': 'error',
 
     // best-practice
     'array-callback-return': 'error',
