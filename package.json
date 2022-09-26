@@ -11,7 +11,7 @@
   "devDependencies": {
     "@sxzz/eslint-config": "workspace:*",
     "bumpp": "^8.2.1",
-    "eslint": "^8.23.1",
+    "eslint": "^8.24.0",
     "typescript": "^4.8.3"
   }
 }
