@@ -38,7 +38,7 @@ module.exports = defineConfig({
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/consistent-type-imports': [
       'error',
-      { disallowTypeAnnotations: false },
+      { fixStyle: 'inline-type-imports', disallowTypeAnnotations: false },
     ],
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
