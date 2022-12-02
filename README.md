@@ -37,12 +37,8 @@ module.exports = {
 ```jsonc
 // .prettierrc
 {
-  "singleQuote": true,
-  "semi": true,
-  "arrowParens": "avoid",
-  "jsxSingleQuote": true,
-  "endOfLine": "lf",
-  "trailingComma": "es5"
+  "semi": false,
+  "singleQuote": true
 }
 ```
 
