@@ -31,11 +31,11 @@
   },
   "dependencies": {
     "@sxzz/eslint-config-ts": "workspace:*",
-    "eslint-define-config": "^1.13.0",
-    "eslint-plugin-vue": "^9.8.0",
+    "eslint-define-config": "^1.14.0",
+    "eslint-plugin-vue": "^9.9.0",
     "local-pkg": "^0.4.2"
   },
   "devDependencies": {
-    "eslint": "8.31.0"
+    "eslint": "8.32.0"
   }
 }
