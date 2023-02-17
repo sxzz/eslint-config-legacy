@@ -69,6 +69,7 @@ module.exports = defineConfig({
               'module',
               'types',
               'exports',
+              'typesVersions',
               'unpkg',
               'jsdelivr',
               'browser',
