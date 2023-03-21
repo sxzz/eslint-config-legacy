@@ -6,12 +6,12 @@
   "author": "三咲智子 <sxzz@sxzz.moe> (https://github.com/sxzz/)",
   "scripts": {
     "lint": "eslint . --ext .js,.ts,.json,.json5,.vue,.md --fix",
-    "release": "bumpp package.json packages/*/package.json && pnpm publish -r"
+    "release": "bumpp -r && pnpm publish -r"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "workspace:*",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.34.0",
-    "typescript": "^4.9.5"
+    "bumpp": "^9.0.0",
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
   }
 }
