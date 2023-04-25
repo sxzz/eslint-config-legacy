@@ -33,6 +33,6 @@
     "@sxzz/eslint-config-vue": "workspace:*"
   },
   "devDependencies": {
-    "eslint": "^8.36.0"
+    "eslint": "^8.39.0"
   }
 }
