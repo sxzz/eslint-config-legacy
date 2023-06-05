@@ -32,10 +32,10 @@
   "dependencies": {
     "@sxzz/eslint-config-ts": "workspace:*",
     "eslint-define-config": "^1.20.0",
-    "eslint-plugin-vue": "^9.13.0",
+    "eslint-plugin-vue": "^9.14.1",
     "local-pkg": "^0.4.3"
   },
   "devDependencies": {
-    "eslint": "^8.41.0"
+    "eslint": "^8.42.0"
   }
 }
