@@ -37,8 +37,8 @@ importers:
   packages/basic:
     dependencies:
       eslint-define-config:
-        specifier: ^1.24.1
-        version: 1.24.1
+        specifier: ^2.1.0
+        version: 2.1.0
       eslint-plugin-eslint-comments:
         specifier: ^3.2.0
         version: 3.2.0(eslint@8.54.0)
@@ -71,8 +71,8 @@ importers:
         specifier: ^9.0.0
         version: 9.0.0(eslint@8.54.0)
       eslint-define-config:
-        specifier: ^1.24.1
-        version: 1.24.1
+        specifier: ^2.1.0
+        version: 2.1.0
       eslint-plugin-prettier:
         specifier: ^5.0.1
         version: 5.0.1(eslint-config-prettier@9.0.0)(eslint@8.54.0)(prettier@3.1.0)
@@ -99,8 +99,8 @@ importers:
         specifier: ^5.62.0
         version: 5.62.0(eslint@8.54.0)(typescript@5.2.2)
       eslint-define-config:
-        specifier: ^1.24.1
-        version: 1.24.1
+        specifier: ^2.1.0
+        version: 2.1.0
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
@@ -115,8 +115,8 @@ importers:
         specifier: workspace:*
         version: link:../typescript
       eslint-define-config:
-        specifier: ^1.24.1
-        version: 1.24.1
+        specifier: ^2.1.0
+        version: 2.1.0
       eslint-plugin-vue:
         specifier: ^9.18.1
         version: 9.18.1(eslint@8.54.0)
@@ -964,9 +964,9 @@ packages:
       eslint: 8.54.0
     dev: false
 
-  /eslint-define-config@1.24.1:
-    resolution: {integrity: sha512-o36vBhPSWyIQlHoMqGhhcGmOOm2A2ccBVIdLTG/AWdm9YmjpsLpf+5ntf9LlHR6dduLREgxtGwvwPwSt7vnXJg==}
-    engines: {node: '>=18.0.0', npm: '>=9.0.0', pnpm: '>= 8.6.0'}
+  /eslint-define-config@2.1.0:
+    resolution: {integrity: sha512-QUp6pM9pjKEVannNAbSJNeRuYwW3LshejfyBBpjeMGaJjaDUpVps4C6KVR8R7dWZnD3i0synmrE36znjTkJvdQ==}
+    engines: {node: '>=18.0.0', npm: '>=9.0.0', pnpm: '>=8.6.0'}
     dev: false
 
   /eslint-import-resolver-node@0.3.9:
